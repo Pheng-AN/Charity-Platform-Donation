@@ -59,7 +59,7 @@ const RaiseFundsPage = ({ token }) => {
     // Generate a unique name for the image using uuidv4
     const uniqueFileName = `${uuid4()}-${file.name}`;
 
-    // Set the image and unique file name in the state
+    // Set the image and unique file name in the states
     setImage(file);
     setImageFileName(uniqueFileName);
   };
