@@ -8,7 +8,7 @@ import {
   FormControl,
   InputGroup,
 } from "react-bootstrap";
-import { v4 as uuid4 } from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 import { supabase } from "../supabase/client";
 
@@ -57,7 +57,7 @@ const RaiseFundsPage = ({ token }) => {
     const file = e.target.files[0];
 
     // Generate a unique name for the image using uuidv4
-    const uniqueFileName = `${uuid4()}-${file.name}`;
+    const uniqueFileName = `${uuidv4()}-${file.name}`;
 
     // Set the image and unique file name in the states
     setImage(file);
