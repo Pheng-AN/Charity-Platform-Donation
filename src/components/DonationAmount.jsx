@@ -40,20 +40,20 @@ const DonationAmount = () => {
     <div className='donation_feed'>
       <h2 className='donation_text'></h2>
       <p className='donation_text_small'></p>
-      <div className="btn-group">
-        <button type="button" className="btn btn-success">Sort By</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-success">Sort By</button>
         {/* <button onClick={() => handleSortBy('amount')} type="button" className="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
           <span className="sr-only">Toggle Dropdown</span>
         </button> */}
         <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
           <span class="sr-only">Toggle Dropdown</span>
         </button>
-        <div className="dropdown-menu">
-          <a className="dropdown-item" href="#">All</a>
-          <a className="dropdown-item" href="#">Following</a>
-          <a className="dropdown-item" href="#">Favorite</a>
-          <div className="dropdown-divider"></div>
-          <a className="dropdown-item" href="#">Others</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">All</a>
+          <a class="dropdown-item" href="#">Following</a>
+          <a class="dropdown-item" href="#">Favorite</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Others</a>
         </div>
       </div>
       <p className='donation_text'>Total Amount: ${amount}</p>
