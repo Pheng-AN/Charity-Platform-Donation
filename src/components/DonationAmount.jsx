@@ -45,6 +45,9 @@ const DonationAmount = () => {
         {/* <button onClick={() => handleSortBy('amount')} type="button" className="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
           <span className="sr-only">Toggle Dropdown</span>
         </button> */}
+        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
         <div className="dropdown-menu">
           <a className="dropdown-item" href="#">All</a>
           <a className="dropdown-item" href="#">Following</a>
