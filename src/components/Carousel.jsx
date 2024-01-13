@@ -25,7 +25,7 @@ export default function Carousel() {
           </div>
         </div>
         <div className="carousel-item">
-          <img src="/images/6975575681_efa7b23a77_o.jpg" className="d-block w-100 carousel-img" alt="..." />
+          <img src="./images/6975575681_efa7b23a77_o.jpg" className="d-block w-100 carousel-img" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>Siemp Reap relief</h5>
             <p>Trusted ways to help in times of crisis</p>
