@@ -248,7 +248,7 @@ const DiscoverPage = () => {
           <div className="row justify-content-md-center">
             <div className="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
               <h1 className="display-3 fw-bold mb-3">Discover</h1>
-              <p className="lead mb-5">
+              <p className="lead mb-5" style={{ color: 'white' }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
                 earum delectus autem harum incidunt doloremque!
               </p>

@@ -137,8 +137,8 @@ const NewNavbarComBeta = ({ token, setToken }) => {
                       <Nav.Link    
                           as={Link}
                           to="/aboutus"
-                          className="px-3"
-                          // eventKey="link-1"
+                          className="nav-links px-3"
+                          onClick={closeOffcanvas}
                         >
                           ABOUT US
                       </Nav.Link>
