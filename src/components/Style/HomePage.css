@@ -1,0 +1,47 @@
+
+
+.Home-text{
+  padding-top: 96px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 32px;
+}
+
+.display-4{
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lead{
+  
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+}
+
+.centered-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.centered-button .btn-success {
+  font-weight: bold; /* Set the desired font weight */
+}
+
+
+.jumbotron {
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  background-image: url("./images/giving03.0.jpg");
+  background-size: cover;
+  background-position: center;
+  color:white;
+  border-radius: 10px;
+}

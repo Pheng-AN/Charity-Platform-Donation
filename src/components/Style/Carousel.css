@@ -1,0 +1,12 @@
+
+.carousel-item {
+    height: 600px; /* Set your desired fixed height */
+
+  }
+.carousel-img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    
+}
+

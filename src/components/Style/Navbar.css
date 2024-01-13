@@ -1,0 +1,24 @@
+.nav-links {
+  display: inline-block; /* Ensure elements behave like buttons */
+  padding: 10px 20px; /* Add padding for button-like appearance */
+  /* background-color: #4caf50; */
+  color: black; /* White text */
+  text-decoration: none; /* Remove underline for links */
+  border-radius: 15px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth hover animation */
+  margin-right: 10px; /* Add spacing between links */ /* Added for spacing */
+}
+/* when hover */
+.nav-links:hover {
+  /* background-color: #3e8e41; */
+  background-color: #4caf50;
+  transform: scale(1.05); /* Subtle zoom-in effect */
+}
+
+/* Specificity boost for padding (if needed) */
+.nav-links.px-3 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* Just add a sticky here*/

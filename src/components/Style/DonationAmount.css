@@ -1,0 +1,54 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.donation_text{
+
+    padding-left: 10px;
+    padding-top: 16px;
+  
+}
+.btn-group{
+
+    padding-left: 10px;
+    
+
+}
+
+.donation_text_small{
+
+    
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.media{
+
+    width: 64rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
+    border: none !important;
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: 16px;
+    
+
+
+}
+
+.mt-3{
+    width: 54rem;
+}
+
+.donation_feed{
+
+    justify-content: space-between;
+
+}
+
+.mr-4{
+    width: 128px;
+    height: 96px;
+}
+
+
+  

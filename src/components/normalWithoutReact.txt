@@ -1,0 +1,65 @@
+import React from "react";
+
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+
+import InputGroup from "react-bootstrap/InputGroup";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
+
+import Button from "react-bootstrap/Button";
+
+import HomePage from "./FeedsPage";
+
+import {
+  BrowserRouter,
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Routes,
+  Link,
+} from "react-router-dom";
+
+const NewNavbarCom = () => {
+  return (
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <Link class="navbar-brand" to="/">
+          Navbar
+        </Link>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <Link class="nav-link" to="/">
+                Home <span class="sr-only">(current)</span>
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/feeds">
+                FEEDS
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  );
+};
+
+export default NewNavbarCom;

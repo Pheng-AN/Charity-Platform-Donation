@@ -1,0 +1,87 @@
+/* About.css */
+
+.about-container {
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+
+.regular-text-about {
+  color: #000000;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif; /* Add font-family */
+}
+
+.about-heading-about {
+  font-size: 50px;
+  line-height: 1;
+  text-align: left;
+  margin-bottom: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif; /* Add font-family */
+}
+
+.p-about {
+  font-size: 25px;
+  line-height: 1.5;
+  margin-top: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif; /* Add font-family */
+}
+
+.img-about {
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.container-about {
+  margin-top: 50px;
+}
+
+.text-box-about {
+  margin-top: 50px;
+  border: 5px solid #ddd;
+  padding: 5px;
+  border-radius: 10px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif; /* Add font-family */
+}
+.block-header-about {
+  padding: 25px;
+  margin-left: 1px;
+}
+.card-title-about {
+  font-size: 2em; /* Adjust the font size as needed */
+}
+
+/* New styles for the Card section */
+.row-card-about {
+  margin-top: 30px;
+  padding: 15px;
+}
+
+
+/* Center the button */
+.button-start-fundraising-about {
+  margin-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.icon-text-container-about  {
+  display: flex;
+  margin-bottom: 20px; /* Add margin to the bottom */
+  margin-left: 20px;
+}
+
+.icon-text-container-about .text-content-about {
+  margin-left: 20px;
+
+}

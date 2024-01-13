@@ -1,0 +1,18 @@
+
+
+.jumbotron_feed {
+    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-image: url("./images/giving03.0.jpg");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    border-radius: 10px;
+}
+
+.display-feed {
+    text-align: center; /* Center text horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
